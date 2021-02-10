@@ -8,6 +8,15 @@ public class JefeEmpleado implements Empleados{
 	
 	private String nombreEmpresa;
 	
+	public void metodoInit() {
+		System.out.println("metodo que se ejecutara antes del bean");
+	}
+	
+	public void metodoFinal() {
+		
+		System.out.println("metodo que se ejecutara al acabar el ciclo de vida del bin");
+	}
+	
 	
 	public String getEmail() {
 		return email;
