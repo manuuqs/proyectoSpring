@@ -11,6 +11,8 @@
 
 <context:property-placeholder location="classpath:PropiedadesEmpresa"/>
 
+<context:component-scan base-package="SpringAnotaciones"></context:component-scan>
+
 <bean id="miInforme" class="InversionDeObjetos.Informe"></bean>
 
 <bean id="miEmpleado" class="InversionDeObjetos.JefeEmpleado" 
